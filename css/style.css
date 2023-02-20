@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1200px) {
+    .page{
+        display: flex;
+        width: 768px;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .page{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+.header{
+    display: flex;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+}
