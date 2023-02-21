@@ -1,0 +1,14 @@
+.footer-container{
+    display: flex;
+    width: 1200px;
+}
+
+.footer-column{
+    display:flex;
+    flex:1;
+}
+
+.footer-column-main{
+    flex: 2;
+}
+
