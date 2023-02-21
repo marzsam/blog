@@ -8,12 +8,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 .header{
     display: flex;
     width: 100%;
-    justify-content: center;
+    
+    background-color: #293241;
 }
 
 .menu{
@@ -21,6 +23,7 @@
     width: 100%;
     height: 50px;
     justify-content: center;
+    background-color: #EE6C4D;
 }
 
 .content{
@@ -48,4 +51,5 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    background-color: #293241;
 }

@@ -1,8 +1,53 @@
-.header-container{
+.header-left-container{
+    display: flex;
+    flex: 1;
+}
+
+.header-center-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 160px;
+    flex: 1;
+}
+
+.header-right-container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+.header-title-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-social-container{
+    display: flex;
+    height: 25px;
+}
+
+.social-icon{
+    display: flex;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: invert(1);
+    
+}
+
+.header-title{
+    font-family: Righteous;
+    font-size: 3.2rem;
+    font-weight: normal;
+    color: white;
+}
+
+.header-subtitle{
+    font-family: Righteous;
+    font-size: 1rem;color: white;
+    font-weight: normal;
 }
